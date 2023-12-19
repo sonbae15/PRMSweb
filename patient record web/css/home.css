@@ -1,0 +1,339 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.name {
+    background-image: url("bg1.png");
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    background-repeat: no-repeat;
+    font-family: rockwell, serif;
+    background-color: #a2a2ac;
+    -webkit-text-stroke: 2px white;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+img {
+    margin-left: 60px;
+    margin-right: 24px;
+}
+
+button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    width: 50px;
+}
+
+.button1 {
+    padding: 20px;
+    background: rgba(0, 0, 0, .4);
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    color: white;
+}
+
+.back-ground {
+    background-image: url(https://images.unsplash.com/photo-1521815049196-8a76f26a2135?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjA0fHxhZXN0aGV0aWMlMjBob3NwaXRhbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 97%;
+    padding: 20px;
+
+}
+
+nav {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 20px;
+    font-family: rockwell, serif;
+    font-size: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    background-color: transparent;
+
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav li:hover {
+    transform: scale(1.1);
+    background-color: white;
+    border-radius: 2px;
+}
+
+nav a:hover {
+    transform: scale(1.5);
+    background-color: #212122;
+    border-radius: 2px;
+    text-decoration: underline;
+}
+
+.prms-head {
+    font-family: rockwell, serif;
+    font-size: 35px;
+    padding: 0px;
+    color: #fff;
+}
+
+.content h1 {
+    font-weight: 200px;
+    margin-left: 20px;
+    font-family: rockwell, serif;
+}
+
+.content {
+    width: 50%;
+    padding: 20px;
+    background: rgba(0, 0, 0, .4);
+    box-shadow: 5px 5px 20px 20px rgba(0, 0, 0, .5);
+    width: 80%;
+    border-radius: 15px;
+    color: white;
+}
+
+.mother-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+
+}
+
+.content p {
+    color: white;
+    font-family: rockwell, serif;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.one {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.5rem;
+    margin-top: 20%;
+}
+
+.logos div {
+    margin-left: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    align-items: center;
+    transition: .5s ease-in-out;
+    font-size: 1.5rem;
+    padding: 0px;
+}
+
+.logos div:hover {
+    border-radius: 50%;
+    transition: .3s ease-in-out;
+    transform: scale(1.5);
+    color: rgb(15, 149, 238);
+    cursor: pointer;
+}
+
+.logo-one {
+    width: 50%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.box:hover {
+    background-color: gray;
+    transform: scale(0.99);
+}
+
+#b1:hover {
+    background-color: #778899;
+    transform: scale(1.2);
+}
+
+.box {
+    padding: 0px;
+    background: rgba(0, 0, 0, .8);
+    box-shadow: 5px 5px 20px 20px rgba(0, 0, 0, .5);
+    width: 260px;
+    height: 500px;
+    text-align: center;
+    font-family: rockwell, serif;
+    border-radius: 15px;
+    color: white;
+}
+
+.box1 {
+    padding: 20px;
+    background: rgba(0, 0, 0, .8);
+    width: 200px;
+    height: 130px;
+    text-align: center;
+    margin-left: 10px;
+    font-family: rockwell, serif;
+    border-radius: 5px;
+    color: white;
+}
+
+.box2 {
+    padding: 40px;
+    background: rgba(0, 0, 0, .8);
+    width: 90%;
+    height: 90%;
+    margin-left: 20px;
+    text-align: justify;
+    font-family: rockwell, serif;
+    border-radius: 5px;
+    color: white;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+.box li {
+
+    margin: 6px;
+    list-style: none;
+}
+
+.box li a {
+    color: #2F4858;
+    text-decoration: none;
+    font-size: 60%;
+    transition: all ease-in-out 250ms;
+}
+
+.box li a:hover {
+    background-color: transparent;
+    transform: scale(1.2);
+}
+
+pi {
+    color: white;
+    font-family: rockwell, serif;
+    font-size: 25px;
+    margin-left: 23px;
+    text-align: justify;
+}
+
+.box p1 {
+    background-color: transparent;
+    transform: scale(1.2);
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    font-family: rockwell, serif;
+}
+
+.box p2 {
+    background-color: transparent;
+    transform: scale(1.2);
+    color: white;
+    font-size: 18px;
+    font-family: rockwell, serif;
+}
+
+.box h2 {
+    color: white;
+    font-size: 20px;
+    font-family: rockwell, serif;
+}
+
+.box-img {
+    margin-left: 10px;
+    margin-top: 30px;
+    border-image: 30 round;
+    width: 150px;
+    height: 150px;
+}
+
+.box-img:hover {
+    transform: scale(0.99);
+}
+
+.content-2 {
+    width: 70%;
+    padding: 20px;
+    background: rgba(255, 255, 255, .7);
+    box-shadow: 5px 5px 20px 20px rgba(0, 0, 0, .5);
+    border-radius: 15px;
+    margin-top: 3%;
+}
+
+.content-2 p {
+    color: #000;
+    font-family: rockwell, serif;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify;
+}
+
+.content-3 {
+    width: 90%;
+    padding: 20px;
+    background: rgba(255, 255, 255, .7);
+    box-shadow: 5px 5px 20px 20px rgba(0, 0, 0, .5);
+    border-radius: 15px;
+    margin-top: 3%;
+}
+
+.content-3 p {
+    color: #000;
+    font-family: rockwell, serif;
+    font-size: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: justify;
+}
